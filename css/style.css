@@ -9,11 +9,16 @@
     width: 95%;
     transform: rotate(25deg);
     transition: 2000ms;
+    
 }
 #far{
     size: 5rem;
 }
-
+@media(max-width:1024px){
+    #title{
+        text-align: center;
+    }
+}
 .icon:hover{
     color: #ff4c68;
 }
@@ -47,9 +52,7 @@ h3{
     font-family: 'Montserrat';
     font-weight: bolder;
 }
-.pricing-header{
-    font-family: 'Ubuntu';
-}
+
 h1{
     font-family: 'Ubuntu', sans-serif;
     font-size: 3rem;
@@ -103,4 +106,13 @@ h2{
 }
 #testimonials:hover{
     background-color: #ff4c68;
+}
+#footer{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+footer{
+    text-align: center;
+    padding: 7% 15%;
 }
